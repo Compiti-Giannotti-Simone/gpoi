@@ -1,0 +1,146 @@
+body
+{
+  background-color: darkgrey;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p
+{
+  text-align: center;
+}
+
+.contenitore{
+    text-align: center;
+    border: 3px solid black;
+    width: 70%;
+    margin-left: auto; margin-right: auto;
+    background-color: white;
+    padding: 10px;
+    }
+
+table , td
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 2px solid red;
+    border-collapse: collapse;
+    padding: 10px 10px 10px 10px;
+   
+}
+
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
+.sis
+
+{
+  
+  background-color: limegreen;
+
+}
+
+.sisl
+
+{
+  
+  background-color: lime;
+
+}
+
+.mat
+
+{
+  
+  background-color: dodgerblue;
+
+}
+
+.cmat
+{
+
+  background-color: deepskyblue;
+
+}
+
+.ing
+{
+  background-color: yellow;
+}
+
+.tps
+{
+  background-color: darkorange;
+  padding: 20px;
+}
+
+.tpsl
+
+{
+  background-color: chocolate;
+}
+
+.inf
+{
+  background-color: mediumorchid;
+}
+
+.infl
+{
+  background-color: mediumpurple;
+}
+
+.tel
+{
+  background-color: #ffa8ab;
+}
+
+.tell
+{
+  background-color: #ffc2c4;
+}
+
+
+.gin
+{
+  background-color: darkgrey;
+}
+
+.ita
+{
+  background-color: firebrick;
+}
+.sto
+{
+  background-color:coral;
+}
+
+.titolo {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+}
+
+.intestazione {
+    font-size:  20px;
+    color:red;
+}
+
+.box {
+    border: 3px solid black;
+    width: 85%;
+    margin:0 auto;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.spazio {
+    padding: 10px;
+}
