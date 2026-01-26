@@ -38,14 +38,14 @@ public class Persona {
     public Persona(String nome, String cognome, String codice) throws IllegalArgumentException {
         this.nome = nome;
         this.cognome = cognome;
-        this.codice = codice;
+        this.codice = codice.toUpperCase();
         if (!controllaCodice()) {
             throw new IllegalArgumentException();
         }
     }
 
     private boolean controllaCodice() {
-        return this.codice.matches("^[A-Z]{6}[0-9]{2}[A-Z][0-9]{2}[A-Z][0-9]{3}[A-Z]$");
+        return this.codice.matches("^[A-Z]{6}[0-9]{2}[A-Z0-9]{8}$");
     }
 
     /**
